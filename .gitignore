@@ -1,6 +1,18 @@
-# Ignore node modules
-**/node_modules/
-**/.env
+# Node.js
+node_modules/
+.env
+.DS_Store
 dist/
 build/
-.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
